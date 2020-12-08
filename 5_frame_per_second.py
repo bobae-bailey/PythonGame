@@ -14,10 +14,10 @@ pygame.display.set_caption('Bobae Game')
 clock = pygame.time.Clock()
 
 # Background
-background = pygame.image.load('C:\\Users\\Jody\\PycharmProjects\\Practice\\pygame_basic\\background.png')
+background = pygame.image.load('./images/background.png')
 
 # character
-character = pygame.image.load("C:\\Users\\Jody\\PycharmProjects\\Practice\\pygame_basic\\character.png")
+character = pygame.image.load("./images/character.png")
 character_size = character.get_rect().size
 character_width = character_size[0]
 character_height = character_size[1]

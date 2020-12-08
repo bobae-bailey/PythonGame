@@ -11,7 +11,7 @@ screen = pygame.display.set_mode((screen_width, screen_width))
 pygame.display.set_caption('Bobae Game')
 
 # Background
-background = pygame.image.load('C:\\Users\\Jody\\PycharmProjects\\Practice\\pygame_basic\\background.png')
+background = pygame.image.load('./images/background.png')
 
 
 # Event loop

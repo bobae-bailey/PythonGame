@@ -16,10 +16,10 @@ pygame.display.set_caption('Quiz')
 clock = pygame.time.Clock()
 ###########################################################
 
-background = pygame.image.load('C:\\Users\\Jody\\PycharmProjects\\Practice\\pygame_basic\\background.png')
+background = pygame.image.load('./images/background.png')
 
 
-dog =  pygame.image.load('C:\\Users\\Jody\\PycharmProjects\\Practice\\pygame_basic\\dog.png')
+dog =  pygame.image.load('./images/dog.png')
 dog_size = dog.get_rect().size
 dog_width = dog_size[0]
 dog_height = dog_size[1]
@@ -29,7 +29,7 @@ to_x = 0
 dog_speed = 10
 
 #Enemy
-poop = pygame.image.load('C:\\Users\\Jody\\PycharmProjects\\Practice\\pygame_basic\\poop.png')
+poop = pygame.image.load('./images/poop.png')
 poop_size = poop.get_rect().size
 poop_width = poop_size[0]
 poop_height = poop_size[1]
