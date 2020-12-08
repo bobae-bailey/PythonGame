@@ -3,6 +3,7 @@ import pygame
 ###########################################################
 pygame.init()
 
+# This is a comment
 # Screen Size
 screen_width = 480
 screen_height = 640
